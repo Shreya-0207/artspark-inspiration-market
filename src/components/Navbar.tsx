@@ -28,6 +28,9 @@ const Navbar = () => {
             <Link to="/artists" className="text-gray-700 hover:text-art-purple transition-colors">
               Artists
             </Link>
+            <Link to="/sell" className="text-gray-700 hover:text-art-purple transition-colors">
+              Sell Your Art
+            </Link>
           </div>
         </div>
 
@@ -86,6 +89,9 @@ const Navbar = () => {
             </Link>
             <Link to="/artists" className="block py-2 text-gray-700 hover:text-art-purple">
               Artists
+            </Link>
+            <Link to="/sell" className="block py-2 text-gray-700 hover:text-art-purple">
+              Sell Your Art
             </Link>
             <div className="pt-4 flex flex-col space-y-3">
               <div className="relative">
